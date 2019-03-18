@@ -32,12 +32,12 @@ public class UserOfList {
           + Accumulator.catElementsStartingWith( list, "pi")
           + System.lineSeparator());
 
-        // // list of finite Doubles
-        // List_inArraySlots numbers = Accumulator.finites( list);
-        // System.out.println( "list of finite Doubles: "
-           // + numbers.size() + " elements:" + System.lineSeparator()
-           // + numbers
-           // + System.lineSeparator());
+        // list of finite Doubles
+        List_inArraySlots numbers = Accumulator.finites( list);
+        System.out.println( "list of finite Doubles: "
+           + numbers.size() + " elements:" + System.lineSeparator()
+           + numbers
+           + System.lineSeparator());
 
         // // test ?? template
         // System.out.println( "test ??");
